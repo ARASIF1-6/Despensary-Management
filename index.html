@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+
+    <!--header starts here-->
+    <header class = "header">
+        <div class = "heading_line">
+            <marquee class = "banner_title" banner = "" direction = "">
+                ---Welcome to ARA Pharma---
+            </marquee>
+        </div>
+    </header> 
+    <hr />
+    <!--header ends here-->
+
+    <div class = "flex_center" id = "display_none">
+        <p class="ARA"> ARA Pharma </p>
+        <i class="fa-solid fa-bars" id = "bars"></i> 
+    </div>
+    <hr id = "display_none" />
+         
+    <!--navbar starts here-->
+    <nav>
+        <div>
+            <ul class = "nav_upper flex_space-around">
+                <li> <a href = "index.html"> <i class="fa-solid fa-house"></i> Home </a> </li>
+                <li> <a href = "administration.html"> <i class="fa-solid fa-c"></i> Administration </a> </li>
+                <li> <a href = "branches.html"> <i class="fa-solid fa-code-branch"></i> Branches </a> </li>
+                <li> <a href = "our_services.html"> <i class="fa-solid fa-s"></i> Our Services </a> </li>
+                <li> <a href = "registration.html"> <i class="fa-solid fa-registered"></i> Registration </a> </li>
+                <li> <a href = "login.html"> <i class="fa-solid fa-right-to-bracket"></i> Log in </a> </li>
+                <li> <a href = "my_account.html"> <i class="fa-solid fa-user"></i> MY Account </a> </li>
+            </ul>
+        </div>
+        <div>
+            <ul class = "nav_lower flex_space-around">
+                <li> <label for = "all catagories"> All Catagories </label> <br />
+                    <select name = "catagories" id = "catagories">
+                    <option value ="medicine"> Medicine </option>
+                    <option value ="babycare"> Babycare </option>
+                    <option value ="panty"> Panty </option>
+                  </select> </li>
+
+                  <li> <i class="fa-solid fa-dollar-sign"></i> <label for = "price"> Price </label> <br />
+                    <select name = "price" id = "price">
+                    <option value ="$0.3-$12"> $0.3-$12 </option>
+                    <option value ="$13-$20"> $13-$20 </option>
+                    <option value ="$30-$70"> $30-$70 </option>
+                  </select> </li>
+                <li class = "action_search"> <input type = "search" name = "search" id = "search" placeholder="search product" /> <button class ="search_btn"> <i class="fa-solid fa-magnifying-glass"></i> </button> </li>
+                <li> <a href = "cart.html"> <i class="fa-solid fa-cart-shopping"></i> Cart details </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar ends here-->
+
+    <!--main starts here-->
+    <main>
+        <div>
+            <!--Products section starts here-->
+            <section class = "products">
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Prodep 20.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Prodep 20 mg Cap</h3>
+                        <p> FLUOXETINE... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.3 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Alatrol 10.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Alatrol 10 mg </h3>
+                        <p> Cetirizine Dihydrochloride... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.27 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Rosuva 10.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Rosuva 10 mg </h3>
+                        <p> Rosuvastatin... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.2 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Sargel 20.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Sargel 20 mg Cap</h3>
+                        <p>  Esomeprazole Magnesium... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.07 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Sargel 40.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Sargel 40 mg Cap</h3>
+                        <p>  Esomeprazole Magnesium... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $1 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Losectil 20.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Losectil 20 mg Cap</h3>
+                        <p>  Omeprazole... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.05 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Losectil 40.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Losectil 40 mg Cap</h3>
+                        <p>  Omeprazole... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.09 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Amodis 400.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Amodis 400</h3>
+                        <p> Metronidazole... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.02 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Dormicum 7.5.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Dormicum 7.5 mg </h3>
+                        <p> Midazolam... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $2.04 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Aripra 10.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Aripra 10 mg </h3>
+                        <p> Aripiprazole... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.46 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Montene 10.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Montene 10 mg </h3>
+                        <p> Montelukast... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $1.45 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Fimoxiclav 625.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Fimoxiclav 625 mg Cap</h3>
+                        <p> AMOXICILLIN... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $3.2 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Fixocard 50.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Fixocard 50 mg </h3>
+                        <p> Amlodipine... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $0.08 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Valex CR 500.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Valex CR 500 mg </h3>
+                        <p> Sodium Valproate ... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $1.17 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+                <article class = "product_card card"> 
+                    <img class = "product_image" src = "./Images/Tridyl 5.png" alt = "" />
+                    <div class = "product_body">
+                        <h3> Tridyl 5 mg </h3>
+                        <p> Trihexyphenidyl... <a class = "learn_more" href = "product.html"> Learn More </a> </p>
+                        <h4> $1.10 </h4>
+                        <button class = "product_btn"> Add to cart </button>
+                    </div>
+                </article>
+            </section>
+            <!--Products section ends here-->
+
+            <!--Pagination starts here-->
+            <div class = "pagination">
+                <button class = "pagination_btn"> <i class="fa-solid fa-less-than"></i> </button>
+                <button class = "pagination_btn"> 2 </button>
+                <button class = "pagination_btn"> 3 </button>
+                <button class = "pagination_btn"> 4 </button>
+                <button class = "pagination_btn"> 5 </button>
+                <button class = "pagination_btn"> 6 </button>
+                <button class = "pagination_btn"> 7 </button>
+                <button class = "pagination_btn"> 8 </button>
+                <button class = "pagination_btn"> 9 </button>
+                <button class = "pagination_btn"> 10 </button>
+                <button class = "pagination_btn"> ... </button>
+                <button class = "pagination_btn"> 100 </button>
+                <button class = "pagination_btn"> <i class="fa-solid fa-greater-than"></i> </button>
+            </div>
+            <!--Pagination ends here-->
+        </div>
+    </main>
+    <!--main ends here-->
+
+    <!--footer starts here-->
+    <footer>
+        <div class = "flex_space-around">
+            <ul>
+                <h3> <i class="fa-solid fa-address-card"></i> Contacts </h3>
+                <li> <i class="fa-solid fa-phone"></i> 01444-555666 </li>
+                <li> <i class="fa-solid fa-envelope"></i> ara3105@gmail.com </li>
+            </ul>
+            <ul>
+                <h3>Follow this</h3>
+                <button class = "bbtn"> <i class="fa-brands fa-facebook" style = "color: blue;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-youtube" style = "color: red;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-twitter" style = "color: skyblue;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-instagram" style = "color: rgba(255, 0, 242, 0.815)"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-whatsapp" style = "color: rgb(13, 235, 13)"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-telegram" style = "color: skyblue"></i> </button>
+            </ul>
+            <div>
+                <p>&copy; Copyright 2023 ARA Pharma. All rigths reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends here-->
+</body>
+</html>

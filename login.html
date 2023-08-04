@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+
+    <!--header starts here-->
+    <header class = "header">
+        <div class = "heading_line">
+            <marquee class = "banner_title" banner = "" direction = "">
+                ---Welcome to ARA Pharma---
+            </marquee>
+        </div>
+    </header> 
+    <hr />
+    <!--header ends here-->
+
+    <div class = "flex_center" id = "display_none">
+        <p class="ARA"> ARA Pharma </p>
+        <i class="fa-solid fa-bars" id = "bars"></i> 
+    </div>
+    <hr id = "display_none" />
+         
+    <!--navbar starts here-->
+    <nav>
+        <div>
+            <ul class = "nav_upper flex_space-around">
+                <li> <a href = "index.html"> <i class="fa-solid fa-house"></i> Home </a> </li>
+                <li> <a href = "administration.html"> <i class="fa-solid fa-c"></i> Administration </a> </li>
+                <li> <a href = "branches.html"> <i class="fa-solid fa-code-branch"></i> Branches </a> </li>
+                <li> <a href = "our_services.html"> <i class="fa-solid fa-s"></i> Our Services </a> </li>
+                <li> <a href = "registration.html"> <i class="fa-solid fa-registered"></i> Registration </a> </li>
+                <li> <a href = "login.html"> <i class="fa-solid fa-right-to-bracket"></i> Log in </a> </li>
+                <li> <a href = "my_account.html"> <i class="fa-solid fa-user"></i> MY Account </a> </li>
+            </ul>
+        </div>
+        <div>
+            <ul class = "nav_lower flex_space-around">
+                <li> <label for = "all catagories"> All Catagories </label> <br />
+                    <select name = "catagories" id = "catagories">
+                    <option value ="medicine"> Medicine </option>
+                    <option value ="babycare"> Babycare </option>
+                    <option value ="panty"> Panty </option>
+                  </select> </li>
+
+                  <li> <i class="fa-solid fa-dollar-sign"></i> <label for = "price"> Price </label> <br />
+                    <select name = "price" id = "price">
+                    <option value ="$0.3-$12"> $0.3-$12 </option>
+                    <option value ="$13-$20"> $13-$20 </option>
+                    <option value ="$30-$70"> $30-$70 </option>
+                  </select> </li>
+                <li class = "action_search"> <input type = "search" name = "search" id = "search" placeholder="search product" /> <button class ="search_btn"> <i class="fa-solid fa-magnifying-glass"></i> </button> </li>
+                <li> <a href = "cart.html"> <i class="fa-solid fa-cart-shopping"></i> Cart details </a> </li>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar ends here-->
+
+    <!--main starts here-->
+    <main>
+        <div class = "flex_center">
+            <!--Login starts here-->
+            <section class = "card LogIn_card">
+                <h2> ARA PHARMA </h2>
+                <form>
+                    <div>
+                        <label for = "username"> Username </label>
+                        <input type = "text" name = "username" id = "username" placeholder = "Enter your username" />
+                    </div>
+
+                    <div>
+                        <label for = "username"> Password </label>
+                        <input type = "password" name = "password" id = "password" placeholder = "Enter your password" />
+                    </div>
+                </form>
+                <button class = "btn LogIn_btn"> Log In </button>
+                <p class = "p1"> Forgotten password? </p> <hr />
+                <p class = "p2"> Or </p>
+                <button class = "btn Create-Account_btn"> <a href = "registration.html"> Create Account </a> </button>
+            </section>
+            <!--Login ends here-->
+        </div>
+    </main>
+    <!--main ends here-->
+
+    <!--footer starts here-->
+    <footer>
+        <div class = "flex_space-around">
+            <ul>
+                <h3> <i class="fa-solid fa-address-card"></i> Contacts </h3>
+                <li> <i class="fa-solid fa-phone"></i> 01444-555666 </li>
+                <li> <i class="fa-solid fa-envelope"></i> ara3105@gmail.com </li>
+            </ul>
+            <ul>
+                <h3>Follow this</h3>
+                <button class = "bbtn"> <i class="fa-brands fa-facebook" style = "color: blue;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-youtube" style = "color: red;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-twitter" style = "color: skyblue;"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-instagram" style = "color: rgba(255, 0, 242, 0.815)"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-whatsapp" style = "color: rgb(13, 235, 13)"></i> </button>
+                <button class = "bbtn"> <i class="fa-brands fa-telegram" style = "color: skyblue"></i> </button>
+            </ul>
+            <div>
+                <p>&copy; Copyright 2023 ARA Pharma. All rigths reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends here-->
+</body>
+</html>
